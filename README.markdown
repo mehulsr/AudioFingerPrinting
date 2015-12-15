@@ -10,37 +10,13 @@ This repo contains 3 folders:
 
 `EchoprintTest` Is a sample Eclipse project that uses the EchoprintLib library.
 
+## CODE ADDED BY ME 
+This directory contains the following:
+1. New UI for the Android application
+2. We can add fingerprints to the local database for the songs available on the user's phone
+3. A 15-20 seconds huming of the song can be used to identify the song
+
 `jni` Contains the NDK/jni code needed to compile the native library yourself. You'll need to download the Echoprint source, as well as the Boost libraries in order to compile it.
 
-Enjoy!
-
-## Update 29-05-2015
-
-The following major changes have been made to the project:
-* Updated JNI library generated based on Android NDK Revision 10e, Boost 1.58.0 and latest echoprint-codegen C++ library.
-* Eclipse projects imported into Android Studio 1.2.1.1 and configured to work with latest Android SDK (level 22).
-* Removed the Echonest API calls because it is no longer available (https://developer.echonest.com/forums/thread/3650). Now using the MooMash API (http://www.mooma.sh/api.html).
-
-## License
-
-Echoprint4Android is licensed under the MIT License:
-
-  Copyright (c) 2011 2012 Grand Valley State University (http://masl.cis.gvsu.edu/)
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-  THE SOFTWARE.
+## Please read README-ORIGINAL.markdown for more details about the original project.
+## Thanks to the original developer :)
