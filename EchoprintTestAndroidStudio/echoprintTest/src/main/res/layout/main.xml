@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/windowBackground"
+    >
+<!--<Button -->
+	<!--android:text="Start" -->
+	<!--android:id="@+id/recordButton" -->
+	<!--android:layout_width="wrap_content" -->
+	<!--android:layout_height="wrap_content" -->
+	<!--android:layout_gravity="center_vertical|center_horizontal|center"-->
+<!--/>-->
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:orientation="vertical"
+		android:id="@+id/linearLayout2">
+
+		<!--<include-->
+			<!--android:id="@+id/toolbar"-->
+			<!--layout="@layout/toolbar"-->
+			<!--android:fitsSystemWindows="true" />-->
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="60dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:id="@+id/linearLayout">
+
+		<ImageButton
+			android:id="@+id/recordButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:src="@drawable/mic"
+			android:onClick="record_hum"/>
+
+		<TextView
+			android:id="@+id/recordMessage"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="@string/tap_on_mic"
+			android:textColor="@color/colorPrimary"
+			android:textSize="15dp"
+			android:textStyle="normal" />
+
+	</LinearLayout>
+
+	<TextView
+		android:text="Idle..."
+		android:paddingTop="50px"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content"
+		android:id="@+id/status"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center"
+		/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/linearLayout"
+		android:layout_below="@+id/linearLayout2"
+		android:layout_alignRight="@+id/linearLayout"
+		android:layout_alignEnd="@+id/linearLayout"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_toRightOf="@+id/linearLayout"
+		android:layout_toEndOf="@+id/linearLayout">
+
+		<ImageView
+			android:id="@+id/buttonAdd"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+
+			android:layout_gravity="center"
+
+			android:src="@drawable/ic_launcher"
+			android:background="@drawable/button_action_red_touch"
+			/>
+		<ImageView
+			android:id="@+id/buttonSearch"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+
+			android:layout_gravity="center"
+
+			android:src="@drawable/ic_launcher"
+			android:background="@android:drawable/ic_search_category_default"
+			/>
+	</LinearLayout>
+
+</RelativeLayout>
+
+
