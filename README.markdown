@@ -10,13 +10,13 @@ This repo contains 3 folders:
 
 `EchoprintTest` Is a sample Eclipse project that uses the EchoprintLib library.
 
+`jni` Contains the NDK/jni code needed to compile the native library yourself. You'll need to download the Echoprint source, as well as the Boost libraries in order to compile it.
+
 ## CODE ADDED BY ME 
 This directory contains the following:
 1. New UI for the Android application
 2. We can add fingerprints to the local database for the songs available on the user's phone
 3. A 15-20 seconds huming of the song can be used to identify the song
 
-`jni` Contains the NDK/jni code needed to compile the native library yourself. You'll need to download the Echoprint source, as well as the Boost libraries in order to compile it.
-
-## Please read README-ORIGINAL.markdown for more details about the original project.
-## Thanks to the original developer :)
+PLEASE READ README-ORIGINAL.MARKDOWN FOR MORE DETAILS ABOUT THE ORIGINAL PROJECT.
+THANKS TO THE ORIGINAL DEVELOPER :)
